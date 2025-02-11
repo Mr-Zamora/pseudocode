@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudocode Checker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Pseudocode Checker</h1>
+  
+  <!-- Main container for layout -->
+  <div class="main-container">
+    <!-- Image container -->
+    <div class="image-container">
+      <img src="wakeup.png" alt="Wake up illustration" class="wake-up-image">
+    </div>
+    
+    <!-- Steps and buttons container -->
+    <div class="content-container">
+      <!-- Container for the steps -->
+      <div id="steps-container">
+        <!-- Steps will be dynamically injected here -->
+      </div>
+      
+      <!-- Buttons for shuffling and checking -->
+      <button id="shuffle-button">Shuffle</button>
+      <button id="check-button">Check</button>
+      
+      <!-- Feedback message -->
+      <div id="feedback"></div>
+    </div>
+  </div>
+
+  <!-- Include Sortable.js library from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>  
+  <script src="tunayito.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
